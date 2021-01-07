@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    width: 100%;
+    width: 100%;    
     background-color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -45,4 +45,24 @@ header {
     color: beige;
     font-size: 1.5rem;
     text-decoration: none;
+}
+
+}
+
+main {
+    background-color: darkgray;
+    height: 70vh;
+}
+
+footer {
+    background-color: chartreuse;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span {
+    font-size: 2rem;
+    color: darkblue;
 }
