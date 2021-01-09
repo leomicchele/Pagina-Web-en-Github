@@ -52,6 +52,15 @@ header {
 main {
     background-color: darkgray;
     height: 70vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contenedor_central {
+    background-color: aqua;
+    width: 90%;
+    height: 100%;
 }
 
 footer {
